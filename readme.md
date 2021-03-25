@@ -73,6 +73,7 @@ Example:
 }
 ```
 ### Installation
+0. Change the elasticsearch version in pom.xml with your Elasticsearch server version. You can  safely change the version between 7.0 to 7.12 without any code changes.
 1. Build using: `mvn clean install`
 2. Install the zip file generated in folder: 
 `<path to project>/project/target/releases/elasticsearch-score-normalizer-rescorer-1.0-SNAPSHOT.zip`
